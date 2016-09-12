@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/stylesheets/application.css">
+  </head>
+  <body>
+    <section class="margin-bottom--xxl">
+      <nav class="navigation margin-bottom--xxl">
+        <div class="container">
+          <a href="index.html">
+            <div class="navigation-logo">
+              <div class="logo-img"></div>
+              <h1>Blueprint</h1>
+            </div>
+          </a>
+          <ul class="navigation-links">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Apply</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <h1 class="page-title margin-bottom--lg">For Students</h1>
+        <p class="page-description margin-bottom--xxl">We are an organization of passionate UC Berkeley students who develop web and mobile applications for non-profit organizations. As a member, you will join a family of fellow students working to use our education and skills to make the world a better place.</p>
+        <button class="button button">Apply</button>
+      </div>
+    </section>
+    <section class="margin-bottom--xxl">
+      <div class="container">
+        <h1 class="section-title margin-bottom--xxl">Application Process</h1>
+        <div class="student-timeline">
+          <div class="timeline-row row--active">
+            <div class="num-col">
+              <div class="timeline-num num--active">01</div>
+              <div class="timeline-num num--default">01</div>
+            </div>
+            <div class="text-col">
+              <h1 class="timeline-row-title">Infosessions</h1>
+              <h2 class="timeline-row-date">Aug 29 & Aug 31</h2>
+              <p class="timeline-row-description">Come out and talk to us to learn more about Blueprint at one of our infosessions. They will be hosted at the HP Auditorium in Soda Hall starting at 7 PM on both Monday August 29th and Wednesday August 31st.</p>
+            </div>
+          </div>
+
+          <div class="timeline-row">
+            <div class="num-col">
+              <div class="timeline-num num--active">02</div>
+              <div class="timeline-num num--default">02</div>
+            </div>
+            <div class="text-col">
+              <h1 class="timeline-row-title">Applications Due</h1>
+              <h2 class="timeline-row-date">Sept 4</h2>
+              <p class="timeline-row-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate blanditiis autem quia fugit delectus obcaecati, omnis. Consequuntur quibusdam, nobis ullam earum ab vero, eaque sint qui asperiores aperiam, eos?</p>
+            </div>
+          </div>
+
+          <div class="timeline-row">
+            <div class="num-col">
+              <div class="timeline-num num--active">03</div>
+              <div class="timeline-num num--default">03</div>
+            </div>
+            <div class="text-col">
+              <h1 class="timeline-row-title">Blueprint Games</h1>
+              <h2 class="timeline-row-date">Sept 9</h2>
+              <p class="timeline-row-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate blanditiis autem quia fugit delectus obcaecati, omnis. Consequuntur quibusdam, nobis ullam earum ab vero, eaque sint qui asperiores aperiam, eos?</p>
+            </div>
+          </div>
+
+          <div class="timeline-row">
+            <div class="num-col">
+              <div class="timeline-num num--active">04</div>
+              <div class="timeline-num num--default">04</div>
+            </div>
+            <div class="text-col">
+              <h1 class="timeline-row-title">Interviews</h1>
+              <h2 class="timeline-row-date">Sept 12</h2>
+              <p class="timeline-row-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate blanditiis autem quia fugit delectus obcaecati, omnis. Consequuntur quibusdam, nobis ullam earum ab vero, eaque sint qui asperiores aperiam, eos?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h1 class="section-title margin-bottom--lg">Decision Criteria</h1>
+        <p class="section-description margin-bottom--xl">If we could, we would accept every applicant but unfortunately we cannot manage the volume of people and administrative overhead while still fulfilling our mission to the best of our abilities. The following criteria are what we use to evaluate applicants.</p>
+        <div class="row margin-bottom--xl">
+          <div class="col-md-4 student-criteria">
+            <h2>Passion</h2>
+            <p>Do you demonstrate a genuine passion for social good?</p>
+          </div>
+          <div class="col-md-4 student-criteria">
+            <h2>Skill</h2>
+            <p>Do you have the necessary skills to productively contribute to the mission?</p>
+          </div>
+          <div class="col-md-4 student-criteria">
+            <h2>Experience</h2>
+            <p>Do you have relevant work experience? Volunteering experience?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 student-criteria">
+            <h2>Attitude</h2>
+            <p>Do you demonstrate positive, hard-working attitude?</p>
+          </div>
+          <div class="col-md-4 student-criteria">
+            <h2>Teamwork</h2>
+            <p>Do you display the ability to work well in a team?</p>
+          </div>
+          <div class="col-md-4 student-criteria">
+            <h2>Culture</h2>
+            <p>Will you get along well with the rest of Blueprint? We're sure you will!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      $rows = document.querySelectorAll(".timeline-row");
+      $rows.forEach(function (item) {
+        item.addEventListener("click", function() {
+          console.log(item)
+        })
+      });
+    </script>
+  </body>
+</html>

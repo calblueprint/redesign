@@ -1,0 +1,92 @@
+.splash-section {
+  padding: 50px 0;
+}
+
+.splash-cover {
+  background: $blue;
+  padding: 30px 0 80px;
+}
+
+.about-item-row {
+  margin: 0 auto;
+}
+
+.about-item-col {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.about-item {
+  margin-bottom: 30px;
+  p {
+    font-size: 16px;
+    padding-left: 48px;
+  }
+}
+
+.about-item-header {
+  margin-bottom: 10px;
+  img {
+    display: inline-block;
+    margin-right: 15px;
+    width: 30px;
+    vertical-align: middle;
+  }
+  h2 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align:  middle;
+  }
+}
+
+.about-photo {
+  height: 330px;
+  position: relative;
+}
+
+.about-photo-label {
+  background: $snow;
+  border-radius: 3px;
+  bottom: -20px;
+  box-shadow: 0 0 20px $black-20;
+  color: $slate;
+  font-size: 14px;
+  font-weight: 500;
+  right: 30px;
+  padding: 8px 20px;
+  position: absolute;
+}
+
+.about-us-button-container {
+  text-align: center;
+}
+
+.apply-box {
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px $black-20;
+  padding: 30px;
+  transition: 100ms;
+
+  &:hover {
+    box-shadow: 0px 0px 25px $black-20;
+    @include transform(scale(1.03, 1.03));
+  }
+}
+
+.apply-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.npo-apply {
+  background: $blue;
+
+  .apply-title {
+    color: $snow;
+  }
+}
+
+.student-apply {
+  background: $snow;
+}
