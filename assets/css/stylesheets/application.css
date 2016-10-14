@@ -1995,7 +1995,7 @@ body {
 
 /* line 77, ../sass/components/_navigation.scss */
 .footer-bottom-bar {
-  background: #1976B9;
+  background: #017bd7;
   color: #F9FAFC;
   padding: 16px;
 }
@@ -2064,7 +2064,7 @@ body {
 
 /* line 25, ../sass/components/_fonts.scss */
 .section-title {
-  color: #1976B9;
+  color: #017bd7;
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
@@ -2092,7 +2092,7 @@ p {
 /* line 48, ../sass/components/_fonts.scss */
 a,
 .link {
-  color: #1976B9;
+  color: #017bd7;
   font-size: inherit;
   font-weight: 500;
   text-decoration: none;
@@ -2113,8 +2113,8 @@ a,
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
-  background: #1976B9;
-  border: 1px solid #1976B9;
+  background: #017bd7;
+  border: 1px solid #017bd7;
   border-radius: 3px;
   color: #F9FAFC;
   display: inline-block;
@@ -2152,7 +2152,7 @@ a,
 .button--white {
   background: #F9FAFC;
   border-color: #F9FAFC;
-  color: #1976B9;
+  color: #017bd7;
   font-weight: 700;
   opacity: 0.95;
 }
@@ -2160,12 +2160,12 @@ a,
 /* line 44, ../sass/components/_buttons.scss */
 .button--outline {
   background: transparent;
-  border-color: rgba(25, 118, 185, 0.6);
-  color: #1976B9;
+  border-color: rgba(1, 123, 215, 0.6);
+  color: #017bd7;
 }
 /* line 49, ../sass/components/_buttons.scss */
 .button--outline:hover {
-  border-color: #1976B9;
+  border-color: #017bd7;
 }
 
 /* line 54, ../sass/components/_buttons.scss */
@@ -2193,7 +2193,7 @@ a,
   -o-appearance: none;
   appearance: none;
   background: #F9FAFC;
-  border: 1px solid rgba(25, 118, 185, 0.2);
+  border: 1px solid rgba(1, 123, 215, 0.2);
   border-radius: 3px;
   color: #3C4858;
   font-size: 14px;
@@ -2204,7 +2204,7 @@ a,
 }
 /* line 17, ../sass/components/_forms.scss */
 .input:focus {
-  border-color: rgba(25, 118, 185, 0.8);
+  border-color: rgba(1, 123, 215, 0.8);
 }
 
 /* line 22, ../sass/components/_forms.scss */
@@ -2238,7 +2238,7 @@ a,
 
 /* line 5, ../sass/pages/_splash.scss */
 .splash-cover {
-  background: #1976B9;
+  background: #017bd7;
   padding: 30px 0 80px;
 }
 
@@ -2332,7 +2332,7 @@ a,
 
 /* line 82, ../sass/pages/_splash.scss */
 .npo-apply {
-  background: #1976B9;
+  background: #017bd7;
 }
 /* line 85, ../sass/pages/_splash.scss */
 .npo-apply .apply-title {
@@ -2365,7 +2365,7 @@ a,
 }
 /* line 19, ../sass/pages/_student.scss */
 .num-col:after {
-  background: rgba(25, 118, 185, 0.2);
+  background: rgba(1, 123, 215, 0.2);
   content: '';
   height: 100%;
   position: absolute;
@@ -2381,7 +2381,7 @@ a,
 
 /* line 34, ../sass/pages/_student.scss */
 .num--active {
-  color: rgba(25, 118, 185, 0.2);
+  color: rgba(1, 123, 215, 0.2);
   display: none;
   font-size: 120px;
   font-weight: 900;
@@ -2391,7 +2391,7 @@ a,
 
 /* line 43, ../sass/pages/_student.scss */
 .num--default {
-  color: #1976B9;
+  color: #017bd7;
   font-size: 24px;
   font-weight: 900;
 }
@@ -2506,7 +2506,7 @@ a,
 
 /* line 47, ../sass/pages/_about.scss */
 .our-values-num {
-  color: rgba(25, 118, 185, 0.2);
+  color: rgba(1, 123, 215, 0.2);
   font-size: 120px;
   font-weight: 900;
   position: absolute;
@@ -2552,7 +2552,7 @@ a,
 }
 /* line 87, ../sass/pages/_about.scss */
 .about-page-end-title:before {
-  background: rgba(25, 118, 185, 0.2);
+  background: rgba(1, 123, 215, 0.2);
   bottom: 5px;
   content: '';
   height: 30px;
